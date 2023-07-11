@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace
+}
+
+/* starting Section  */
+
+.main-section {
+  background-image: url("/assets/pngwing6.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  background: rgba(64, 15, 179, 0.1);
+  width: 1920px;
+  height: 850px;
+  flex-shrink: 0;
+}
+
+.div-1-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.div-2-container {
+  color: #272727;
+  margin-left: 196px;
+  margin-right: 96px;
+}
+
+.head-1 {
+  color: #272727;
+  font-size: 80px;
+  font-weight: 800;
+}
+
+.hero-text {
+  line-height: 30px;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  margin: 32px 0;
+}
+
+.btn {
+  border: none;
+  border-radius: 8px;
+  background: #000000;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px 42px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #e55473;
+  color: black;
+}
+
+.hero-img {
+  width: 635px;
+  height: 800px;
+  flex-shrink: 0;
+  margin-right: 196px;
+}
+
+/* featured section*/
+.featured-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 64px;
+  margin-top: 84px;
+}
+
+.featured-text-container {
+  text-align: center;
+}
+
+.featured-sec-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.featured-text {
+  color: rgba(209, 36, 36, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.featured-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.f-pic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sample-text {
+  color: rgba(209, 36, 36, 0.6);
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 32px;
+  text-decoration: underline;
+}
+
+.f-img1 {
+  width: 464px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(29, 146, 255, 0.6);
+  padding: 110px 75px 0 75px;
+}
+
+.f-img2 {
+  width: 464px;
+  height: 538px;
+  padding: 117px 48px 48px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(11, 255, 105, 0.15);
+}
+
+.f-img3 {
+  width: 464px;
+  height: 538px;
+  padding: 67px 75px 0 75px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(219, 14, 116, 0.15);
+}
+
+.featured-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1440px;
+  height: 320px;
+  margin: 128px auto;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+}
+
+.feature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 64px;
+}
+
+.feature-icon {
+  width: 88px;
+  height: 88px;
+  padding-bottom: 12px;
+}
+
+/*  Deal Section */
+.deal-section {
+  background: rgba(229, 84, 115, 0.05);
+  width: 1922px;
+  height: 620px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.deal-off {
+  color: #e55473;
+}
+
+.deal-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.deal-img {
+  padding: 100px 0;
+}
+
+/* end Section */
+.instagram {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 128px 0 48px 0;
+  gap: 32px;
+}
+
+.gallery-imgs {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.card-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 24px;
+  margin: 128px auto;
+  width: 1440px;
+  height: 449px;
+  border-radius: 8px;
+  background: url("assets/rectangle-9.png"),
+    lightgray 0px -203.444px / 100% 213.755% no-repeat;
+}
+
+.input {
+  width: 700px;
+  height: 64px;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  padding: 8px 12px;
+  margin-right: 12px;
+}
+
+/* footer section  */
+.footer {
+  background: #111010;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  width: 1922px;
+  height: 449px;
+}
+
+.flower-title-1 {
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+#shop {
+  color: #726b6b;
+}
+
+.footer-text {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+  font-weight: 400;
+  margin: 32px 0;
+}
+
+.warning {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 128px;
+}
